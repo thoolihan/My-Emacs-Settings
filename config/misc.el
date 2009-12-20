@@ -4,5 +4,7 @@
 (load-library "countchars.el")
 (load-library "google")
 (load-library "fullscreen")
-(require 'pretty-lambdada)
-(pretty-lambda-for-modes)
+(if (eq use-lambda t)
+    (lambda
+      (require 'pretty-lambdada)
+      (pretty-lambda-for-modes)))

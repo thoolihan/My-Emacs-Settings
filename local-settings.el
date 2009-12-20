@@ -1,7 +1,8 @@
-(setq my-ostype 'windows) ; windows mac linux
+(setq my-ostype 'openbsd) ; windows mac linux
 (setq use-ecb t)
-(setq use-twitter t)
-(setq my-workspace-dir "C:\\workspace\\")
+(setq use-lambda nil)
+(setq use-twitter nil)
+(setq my-workspace-dir "~/workspace/")
 (setq my-ecb-layout "lefttim3")
 (setq sql-user "root")
 (setq sql-password "put-password-here")

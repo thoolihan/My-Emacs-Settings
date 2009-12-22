@@ -1,0 +1,21 @@
+;; Object semantic.cache
+;; SEMANTICDB Tags save file
+(semanticdb-project-database "semantic.cache"
+  :file "semantic.cache"
+  :tables (list 
+   (semanticdb-table "wc.el"
+    :file "wc.el"
+    :pointmax 904
+    :major-mode 'emacs-lisp-mode
+    :tokens '(("cl" include nil nil nil [1 14]) ("wc-whitespace-char\\?" function nil nil nil "is current character whitespace?" nil [16 121]) ("wc-buffer" function nil ("b") ((user-visible . t)) "count words in a buffer" nil [123 810]) ("wc" function nil nil ((user-visible . t)) "count words in current buffer" nil [812 903]))
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "window-number.el"
+    :file "window-number.el"
+    :pointmax 6033
+    :major-mode 'emacs-lisp-mode
+    :tokens '(("cl" include nil nil nil [2378 2391]) ("window-number-list" function nil nil nil "Returns a list of the windows, in fixed order and the
+minibuffer (even if not active) last." nil [2422 3057]) ("window-number-select" function nil ("number") ((user-visible . t)) "Selects the nth window." nil [3059 3432]) ("window-number" function nil nil nil "Returns the the number of the current window." nil [3434 3588]) ("window-number-string" function nil nil nil "Returns the string containing the number of the current window" nil [3590 3791]) ("window-number-mode-map" variable nil nil nil "Keymap for the window number mode." nil [3793 3867]) ("window-number-meta-mode-map" variable nil nil nil "Keymap for the window number meta mode." nil [3869 3953]) ("window-number-define-keys" function nil ("mode-map" "prefix") nil (\` (progn (\,@ (loop for number from 1 to 10 collect (\` (define-key (\, mode-map) (kbd (\, (concat prefix (number-to-string (if (>= number 10) 0 number))))) (lambda nil (interactive) (window-number-select (\, number))))))))) nil [3955 4323]) ("unless" code nil [4389 4570]) ("unless" code nil [4624 4781]) ("if" code nil [4783 5393]) ("define-minor-mode" code nil [5395 5618]) ("window-number-face" variable nil (quote ((((type tty) (class color)) (:background "red")) (((type tty) (class mono)) (:inverse-video t)) (((type x w32 mac)) (:foreground "red")))) nil "The face used for the window number in the mode-line." nil [5722 5973]) ("window-number" package nil nil nil [5975 5999]))
+    )
+   )
+  )

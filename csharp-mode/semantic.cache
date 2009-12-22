@@ -1,0 +1,25 @@
+;; Object semantic.cache
+;; SEMANTICDB Tags save file
+(semanticdb-project-database "semantic.cache"
+  :file "semantic.cache"
+  :tables (list 
+   (semanticdb-table "c-sharp-mode.el"
+    :file "c-sharp-mode.el"
+    :pointmax 17460
+    :major-mode 'emacs-lisp-mode
+    :tokens '(("c-filter-ops" function nil ("ops" "opgroup-filter" "op-filter" "&optional" "xlate") nil (unless (listp (car-safe ops)) (setq ops (list ops))) nil [3595 4603]) ("cc-mode" include nil nil nil [4643 4661]) ("eval-when-compile" code nil [4953 5242]) ("c-add-language" code nil [5500 5540]) ("csharp-lineup-region" function nil ("langelem") nil "Indent all #region and #endregion blocks inline with code while
+retaining normal column-zero indention for #if and the other 
+processing blocks." nil [5880 6188]) ("c-lang-defconst" code nil [7141 7277]) ("c-lang-defconst" code nil [7279 9331]) ("c-lang-defconst" code nil [9491 9780]) ("c-lang-defconst" code nil [9938 9995]) ("c-lang-defconst" code nil [10144 10199]) ("c-lang-defconst" code nil [10247 10355]) ("c-lang-defconst" code nil [10400 10610]) ("c-lang-defconst" code nil [10701 10803]) ("c-lang-defconst" code nil [10898 10985]) ("c-lang-defconst" code nil [11031 11116]) ("c-lang-defconst" code nil [11183 11360]) ("c-lang-defconst" code nil [11470 11518]) ("c-lang-defconst" code nil [11589 11724]) ("c-lang-defconst" code nil [11810 11864]) ("c-lang-defconst" code nil [11914 11973]) ("c-lang-defconst" code nil [12019 12084]) ("c-lang-defconst" code nil [12133 12261]) ("c-lang-defconst" code nil [12302 12393]) ("c-lang-defconst" code nil [12437 12487]) ("c-lang-defconst" code nil [12510 12577]) ("c-lang-defconst" code nil [12625 12688]) ("c-lang-defconst" code nil [12776 12841]) ("c-lang-defconst" code nil [12890 12955]) ("c-lang-defconst" code nil [12957 13108]) ("c-lang-defconst" code nil [13387 13913]) ("csharp-font-lock-extra-types" variable nil nil ((user-visible . t)) "*List of extra types (aside from the type keywords) to recognize in C# mode.
+Each list item should be a regexp matching a single identifier." nil [13915 14104]) ("csharp-font-lock-keywords-1" variable nil (c-lang-const c-matchers-1 csharp) ((const . t)) "Minimal highlighting for C# mode." nil [14106 14217]) ("csharp-font-lock-keywords-2" variable nil (c-lang-const c-matchers-2 csharp) ((const . t)) "Fast normal highlighting for C# mode." nil [14219 14334]) ("csharp-font-lock-keywords-3" variable nil (c-lang-const c-matchers-3 csharp) ((const . t)) "Accurate normal highlighting for C# mode." nil [14336 14455]) ("csharp-font-lock-keywords" variable nil csharp-font-lock-keywords-3 nil "Default expressions to highlight in C# mode." nil [14457 14568]) ("csharp-mode-syntax-table" variable nil nil nil "Syntax table used in csharp-mode buffers." nil [14570 14653]) ("or" code nil [14654 14779]) ("csharp-mode-abbrev-table" variable nil nil nil "Abbreviation table used in csharp-mode buffers." nil [14781 14870]) ("c-define-abbrev-table" code nil [14871 15308]) ("csharp-mode-map" variable nil (let ((map (c-make-inherited-keymap))) map) nil "Keymap used in csharp-mode buffers." nil [15310 15479]) ("add-to-list" code nil [15897 15952]) ("csharp-mode-hook" variable nil nil ((user-visible . t)) "*Hook called by `csharp-mode'." nil [15974 16067]) ("csharp-mode" function nil nil ((user-visible . t)) "Major mode for editing C# (pronounced \"see sharp\") code.
+This is a simple example of a separate mode derived from CC Mode to
+support a language with syntax similar to C/C++/ObjC/Java/IDL/Pike.
+
+The hook `c-mode-common-hook' is run with no args at mode
+initialization, then `csharp-mode-hook'.
+
+Key bindings:
+\\{csharp-mode-map}" nil [16118 17403]) ("csharp-mode" package nil nil nil [17407 17429]))
+    :unmatched-syntax 'nil
+    )
+   )
+  )

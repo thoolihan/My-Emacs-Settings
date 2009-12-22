@@ -1,0 +1,91 @@
+;; Object semantic.cache
+;; SEMANTICDB Tags save file
+(semanticdb-project-database "semantic.cache"
+  :file "semantic.cache"
+  :tables (list 
+   (semanticdb-table "config-tempfiles.el"
+    :file "config-tempfiles.el"
+    :pointmax 469
+    :major-mode 'emacs-lisp-mode
+    :tokens '(("user-temporary-file-directory" variable nil (concat temporary-file-directory user-login-name "/") nil nil nil [1 95]) ("make-directory" code nil [96 144]) ("setq" code nil [145 171]) ("setq" code nil [172 287]) ("setq" code nil [288 381]) ("setq" code nil [382 468]))
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "visual.el"
+    :file "visual.el"
+    :pointmax 299
+    :major-mode 'emacs-lisp-mode
+    :tokens '(("when" code nil [17 296]))
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "config.el"
+    :file "config.el"
+    :pointmax 948
+    :major-mode 'emacs-lisp-mode
+    :tokens '(("server-start" code nil [20 34]) ("linum" include nil nil nil [35 51]) ("global-linum-mode" code nil [52 71]) ("if" code nil [72 124]) ("if" code nil [125 173]) ("if" code nil [174 222]) ("column-number-mode" code nil [223 245]) ("setq" code nil [246 294]) ("setq" code nil [295 332]) ("desktop-save-mode" code nil [333 354]) ("setq" code nil [355 380]) ("add-to-list" code nil [381 438]) ("setq-default" code nil [439 474]) ("setq-default" code nil [475 501]) ("global-set-key" code nil [502 547]) ("setq" code nil [548 589]) ("setq-default" code nil [590 625]) ("defalias" code nil [626 659]) ("display-time" code nil [660 674]) ("setq-default" code nil [676 712]) ("delete-selection-mode" code nil [713 738]) ("add-hook" code nil [739 815]) ("cua-mode" code nil [906 916]) ("setq" code nil [917 947]))
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "config-options.el"
+    :file "config-options.el"
+    :pointmax 1058
+    :major-mode 'emacs-lisp-mode
+    :tokens '(("custom-set-variables" code nil [17 984]) ("put" code nil [986 1020]) ("put" code nil [1021 1057]))
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "config-info.el"
+    :file "config-info.el"
+    :pointmax 138
+    :major-mode 'emacs-lisp-mode
+    :tokens '(("setq" code nil [13 79]) ("setq" code nil [80 137]))
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "config-yegge.el"
+    :file "config-yegge.el"
+    :pointmax 1533
+    :major-mode 'emacs-lisp-mode
+    :tokens '(("with-current-buffer" code nil [26 94]) ("save-excursion" code nil [125 330]) ("kill-scratch-buffer" function nil nil nil (set-buffer (get-buffer-create "*scratch*")) nil [332 893]) ("switch-to-buffer" code nil [927 957]) ("toggle-read-only" code nil [958 979]) ("switch-to-buffer" code nil [980 1013]) ("split-window-vertically" function nil ("after" "my-window-splitting-advice" "first" "nil" "activate") nil (set-window-buffer (next-window) (other-buffer)) nil [1054 1195]) ("split-window-horizontally" function nil ("after" "my-window-splitting-advice" "first" "nil" "activate") nil (set-window-buffer (next-window) (other-buffer)) nil [1197 1344]) ("save-buffers-kill-emacs" function nil ("around" "no-query-kill-emacs" "activate") nil "Prevent annoying \"Active processes exist\" query when you quit Emacs." nil [1346 1532]))
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "config-ecb.el"
+    :file "config-ecb.el"
+    :pointmax 448
+    :major-mode 'emacs-lisp-mode
+    :tokens '(("eieio" function nil nil ((use-visible . t) (prototype . t)) nil nil [9 40]) ("semantic" function nil nil ((use-visible . t) (prototype . t)) nil nil [53 90]) ("setq" code nil [91 132]) ("semantic-load" include nil nil nil [133 157]) ("speedbar" function nil nil ((use-visible . t) (prototype . t)) nil nil [170 207]) ("define-key-after" code nil [211 334]) ("global-set-key" code nil [335 378]) ("ecb" include nil nil nil [386 400]) ("window-number" include nil nil nil [401 425]) ("window-number-mode" code nil [426 448]))
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "config-sql.el"
+    :file "config-sql.el"
+    :pointmax 637
+    :major-mode 'emacs-lisp-mode
+    :tokens '(("sql" include nil nil nil [7 21]) ("my-sql-save-history-hook" function nil nil nil (let ((lval (quote sql-input-ring-file-name)) (rval (quote sql-product))) (if (symbol-value rval) (let ((filename (concat "~/.emacs.d/sql/" (symbol-name (symbol-value rval)) "-history.sql"))) (set (make-local-variable lval) filename)) (error (format "SQL history will not be saved because %s is nil" (symbol-name rval))))) nil [22 488]) ("add-hook" code nil [489 552]) ("setq" code nil [554 576]) ("setq" code nil [577 609]) ("setq" code nil [610 637]))
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "config-ruby.el"
+    :file "config-ruby.el"
+    :pointmax 1294
+    :major-mode 'emacs-lisp-mode
+    :tokens '(("ruby-style" include nil nil nil [8 29]) ("add-hook" code nil [30 72]) ("add-hook" code nil [73 117]) ("setq-default" code nil [118 152]) ("ri-ruby" function nil nil ((prototype . t)) nil nil [153 182]) ("ruby-mode" function nil nil ((use-visible . t) (prototype . t)) "Mode for editing ruby source files" nil [184 259]) ("add-to-list" code nil [260 314]) ("setq" code nil [315 413]) ("add-hook" code nil [414 486]) ("run-ruby" function nil nil ((prototype . t)) "Run an inferior Ruby process" nil [488 553]) ("inf-ruby-keys" function nil nil ((prototype . t)) "Set local key defs for inf-ruby in ruby-mode" nil [557 645]) ("add-hook" code nil [649 727]) ("setq" code nil [729 833]) ("ri" function nil nil ((use-visible . t) (prototype . t)) nil nil [834 867]) ("add-hook" code nil [1008 1273]) ("rdebug" include nil nil nil [1276 1293]))
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "bindings.el"
+    :file "bindings.el"
+    :pointmax 810
+    :major-mode 'emacs-lisp-mode
+    :tokens '(("global-set-key" code nil [29 82]) ("global-set-key" code nil [83 136]) ("global-set-key" code nil [137 180]) ("global-set-key" code nil [181 217]) ("global-set-key" code nil [351 396]) ("global-set-key" code nil [397 443]) ("global-set-key" code nil [444 492]) ("global-set-key" code nil [493 540]) ("global-set-key" code nil [541 580]) ("defalias" code nil [581 618]) ("defalias" code nil [619 647]) ("global-set-key" code nil [649 692]) ("global-set-key" code nil [693 734]) ("global-set-key" code nil [736 778]) ("global-set-key" code nil [779 809]))
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "server.el"
+    :file "server.el"
+    :pointmax 297
+    :major-mode 'emacs-lisp-mode
+    :tokens '(("add-hook" code nil [1 188]) ("custom-set-variables" code nil [190 241]) ("add-hook" code nil [242 297]))
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "config-cedet.el"
+    :file "config-cedet.el"
+    :pointmax 1086
+    :major-mode 'emacs-lisp-mode
+    :tokens '(("load-file" code nil [75 104]) ("global-ede-mode" code nil [151 170]) ("semantic-load-enable-minimum-features" code nil [433 472]) ("semantic-load-enable-code-helpers" code nil [590 625]))
+    :unmatched-syntax 'nil
+    )
+   )
+  )

@@ -1,0 +1,8 @@
+(load-library "open_textmate")
+(load-library "wc")
+(load-library "window-number")
+(load-library "countchars.el")
+(load-library "google")
+(load-library "fullscreen")
+(require 'pretty-lambdada)
+(pretty-lambda-for-modes)

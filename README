@@ -1,0 +1,7 @@
+-Tim Hoolihan  tim@hoolihan.net twitter: thoolihan
+
+how to install
+--------------
+1. check this out as ~/emacs
+2. copy sample.emacs to ~/.emacs
+3. edit the local-settings.el file

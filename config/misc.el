@@ -4,6 +4,7 @@
 (load-library "countchars.el")
 (load-library "google")
 (load-library "fullscreen")
+(load-library "browse-kill-ring")
 (if (eq use-lambda t)
     (lambda
       (require 'pretty-lambdada)

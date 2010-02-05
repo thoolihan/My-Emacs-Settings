@@ -1,3 +1,4 @@
+(add-path "autocomplete/")
 (require 'auto-complete)
 (global-auto-complete-mode t)
 ; allow C-n C-p to move in completion list

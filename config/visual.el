@@ -3,7 +3,7 @@
   (setq frame-title-format "edit - %b")
   (require 'color-theme)
   (color-theme-initialize)
-  (color-theme-emacs-21))
+  (color-theme-dark-blue))
 
 (when (eq my-ostype 'windows)
   (set-face-font 'default "Monaco-8"))

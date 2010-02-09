@@ -9,7 +9,6 @@
 	       (concat emacs-directory p)))
 
 (add-path "") ; "/emacs"
-(add-path "auto-complete/")
 (add-path "clojure-mode/")
 (add-path "color-theme/")
 (add-path "color-theme/themes/")
@@ -25,7 +24,6 @@
 (add-path "javascript/")
 (add-path "misc/")
 (add-path "nxml/")
-(add-path "ruby/")
 (add-path "semantic/")
 (add-path "shell/")
 (add-path "slime/")
@@ -61,6 +59,7 @@
 (load-library "config-shell")
 (load-library "config-ssh")
 (load-library "config-svn")
+(load-library "config-yasnippet")
 (load-library "config-yegge")
 (load-library "config-tempfiles")
 (if (eq t use-twitter) 

@@ -1,4 +1,5 @@
-(setq my-ostype 'openbsd) ; windows mac linux
+(setq my-ostype 'windows) ; windows mac linux
+(setq my-theme 'color-theme-dark-blue)
 (setq use-ecb t)
 (setq use-lambda nil)
 (setq use-twitter nil)

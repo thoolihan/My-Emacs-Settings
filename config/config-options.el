@@ -18,6 +18,7 @@
  `(ecb-tree-indent 1)
  `(ecb-wget-setup (quote cons))
  `(ecb-windows-width 0.15)
+ `(ediff-split-window-function 'split-window-horizontally)
  `(fill-column 78)
  `(inhibit-startup-screen t)
  `(js2-allow-keywords-as-property-names nil)

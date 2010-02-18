@@ -18,6 +18,13 @@
  `(ecb-tree-indent 1)
  `(ecb-wget-setup (quote cons))
  `(ecb-windows-width 0.15)
+ `(frame-title-format 
+   (list 
+    (getenv "USERNAME") 
+    "@" (getenv "HOSTNAME") 
+    "(" (getenv "OS") ")"
+    " %b %p %m"))
+ `(ediff-split-window-function 'split-window-horizontally)
  `(fill-column 78)
  `(inhibit-startup-screen t)
  `(js2-allow-keywords-as-property-names nil)

@@ -1,2 +1,2 @@
-(require 'tramp)
-(setq default-tramp-method "plink")
+(when  (not (eq my-ostype 'windows)) (require 'tramp))
+(when (eq my-ostype 'windows) (setq default-tramp-method "plink"))

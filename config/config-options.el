@@ -5,6 +5,7 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  `(browse-url-browser-function (quote browse-url-default-windows-browser))
+ `(diary-file "~/emacs/diary")
  `(ecb-auto-activate t)
  `(ecb-fix-window-size t)
  `(ecb-gzip-setup (quote cons))

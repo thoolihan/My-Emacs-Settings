@@ -11,7 +11,7 @@
 	 (local-file  (file-relative-name
                        temp-file
                        (file-name-directory buffer-file-name))))
-    (list "ir" (list "-c" local-file))))
+    (list "ruby" (list "-c" local-file))))
 
 (push '(".+\\.rb$" flymake-ruby-init) flymake-allowed-file-name-masks)
 (push '("Rakefile$" flymake-ruby-init) flymake-allowed-file-name-masks)

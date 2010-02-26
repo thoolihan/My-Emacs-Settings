@@ -30,6 +30,7 @@
                       "config-info"
                       "config-javascript"
                       "config-powershell"
+                      "config-php"
                       "config-nxml"
                       "config-sql"
                       "config-ruby-flymake"

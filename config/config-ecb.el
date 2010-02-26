@@ -1,4 +1,6 @@
 ; eieio
+(add-path "ecb-2.40/")
+(add-path"eieio/")
 (autoload 'eieio "eieio" nil t)
 
 ; semantic

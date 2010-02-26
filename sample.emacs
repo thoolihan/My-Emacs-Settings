@@ -1,73 +1,53 @@
 (defvar emacs-directory "~/emacs/")
+(defvar emacs-root "~/emacs/")
 (server-start)
 (require 'calendar)
 (require 'cl)
 
-(defvar emacs-root "~/emacs/")
 (defun add-path (p)	
   (add-to-list 'load-path	
 	       (concat emacs-directory p)))
+(let ((mypaths (list ""
+                     "color-theme/"
+                     "color-theme/themes/"
+                     "config"
+                     "misc/"
+                     "semantic/"
+                     "slime/"
+                     "speedbar/")))
+  (loop for path in mypaths do (add-path path)))
+(let ((myconfig (list "local-settings"
+                      "visual"
+                      "config"
+                      "config-abbrev"
+                      "config-options"
+                      "config-calendar"
+                      "bindings"
+                      "config-auto-complete"
+                      "config-csharp"
+                      "config-css"
+                      "config-erc"
+                      "config-info"
+                      "config-javascript"
+                      "config-powershell"
+                      "config-nxml"
+                      "config-sql"
+                      "config-ruby-flymake"
+                      "config-ruby"
+                      "config-vb"
+                      "config-magit"
+                      "config-shell"
+                      "config-ssh"
+                      "config-yasnippet"
+                      "config-yegge"
+                      "config-tempfiles"
+                      "config-cedet"
+                      "misc"
+                      "server"
+                      "config-options")))
+  (loop for config-file in myconfig do (load-library config-file)))
 
-(add-path "") ; "/emacs"
-(add-path "clojure-mode/")
-(add-path "color-theme/")
-(add-path "color-theme/themes/")
-(add-path "config/")
-(add-path "csharp-mode/")
-(add-path "cedet-1.0pre6/")
-(add-path "cedet-1.0pre6/common/")
-(add-path "ecb-2.40/")
-(add-path "eieio/")
-(add-path "ej/")
-(add-path "git-emacs")
-(add-path "jabber/")
-(add-path "misc/")
-(add-path "nxml/")
-(add-path "semantic/")
-(add-path "shell/")
-(add-path "slime/")
-(add-path "speedbar/")
-(add-path "sql/")
-(add-path "svn/")
-(add-path "swank-clojure/")
-(add-path "twitter/")
-(add-path "twittering-mode/")
-(add-path "twit/")
-(add-path "vbnet-mode/")
-
-(load-library "local-settings")
-(load-library "visual")
-(load-library "config")
-(load-library "config-abbrev")
-(load-library "config-options")
-(load-library "config-calendar")
-(load-library "bindings")
-(load-library "config-auto-complete")
-;(load-library "config-clojure")
-(load-library "config-csharp")
-(load-library "config-erc")
-(load-library "config-info")
-;(load-library "config-javascript")
-(load-library "config-powershell")
-(load-library "config-nxml")
-(load-library "config-sql")
-;(load-library "config-ruby-flymake")
-(load-library "config-ruby")
-;(load-library "config-vb")
-(load-library "config-magit")
-(load-library "config-shell")
-(load-library "config-ssh")
-(load-library "config-svn")
-(load-library "config-yasnippet")
-(load-library "config-yegge")
-(load-library "config-tempfiles")
-(if (eq t use-twitter) 
-    (lambda (load-library "config-twittering-mode") (twittering-mode)))
-(load-library "config-cedet")
-(if (eq t use-ecb) (load-library "config-ecb"))
-(load-library "misc")
-(load-library "server")
-(load-library "config-options")
+(if (eq t use-ecb)  (load-library "config-ecb"))
 (c-subword-mode t)
 (shell)
-(switch-to-buffer "*scratch*")
+(if (fboundp 'menu-bar-mode) (menu-bar-mode 1)) ; temporary

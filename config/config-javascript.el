@@ -1,4 +1,5 @@
 (add-path "javascript/")
+(add-path "ej/")
 
 ; There are two javascript shell modes loaded.  The first is Steve Yegge's
 ; which he refers to as a toy The second runs rhino (javascript vm for jvm)

@@ -4,4 +4,5 @@ how to install
 --------------
 1. check this out as ~/emacs
 2. copy sample.emacs to ~/.emacs
-3. edit the local-settings.el file
+3. copy local-settings.el.sample to local-settings.el
+4. edit the local-settings.el file

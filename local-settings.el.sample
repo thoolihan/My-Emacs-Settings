@@ -1,7 +1,9 @@
 (setq my-ostype 'windows) ; windows mac linux
 (setq my-theme 'color-theme-dark-blue)
 (setq use-ecb t)
-(setq use-lambda nil)
+(setq my-startshell t)
+(setq my-usemenu t)
+(setq use-lambda t)
 (setq use-twitter nil)
 (setq my-workspace-dir "~/workspace/")
 (setq my-ecb-layout "lefttim3")

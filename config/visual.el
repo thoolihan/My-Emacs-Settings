@@ -1,4 +1,7 @@
 ; look and feel
+(add-path "color-theme/")
+(add-path "color-theme/themes/")
+
 (when (or (eq my-ostype 'windows) (eq my-ostype 'mac) (eq window-system 'x))
   (setq frame-title-format "edit - %b")
   (require 'color-theme)

@@ -1,21 +1,15 @@
 (defvar emacs-directory "~/emacs/")
-(defvar emacs-root "~/emacs/")
+(defvar emacs-root emacs-directory)
 (server-start)
 (require 'calendar)
 (require 'cl)
 
 (defun add-path (p)	
   (add-to-list 'load-path	
-	       (concat emacs-directory p)))
-(let ((mypaths (list ""
-                     "color-theme/"
-                     "color-theme/themes/"
-                     "config"
-                     "misc/"
-                     "semantic/"
-                     "slime/"
-                     "speedbar/")))
-  (loop for path in mypaths do (add-path path)))
+               (concat emacs-directory p)))
+
+(add-path "")
+(add-path "config")
 (let ((myconfig (list "local-settings"
                       "visual"
                       "config"
@@ -25,7 +19,7 @@
                       "bindings"
                       "config-auto-complete"
                       "config-csharp"
-                      "config-css"
+                      "config-css"                      
                       "config-erc"
                       "config-info"
                       "config-javascript"
@@ -49,6 +43,3 @@
   (loop for config-file in myconfig do (load-library config-file)))
 
 (if (eq t use-ecb)  (load-library "config-ecb"))
-(c-subword-mode t)
-(shell)
-(if (fboundp 'menu-bar-mode) (menu-bar-mode 1)) ; temporary

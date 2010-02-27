@@ -1,5 +1,7 @@
 ; customize editor
-(server-start)
+(add-path "misc/")
+(add-path"slime/")
+
 (require 'linum)
 (global-linum-mode)
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
@@ -30,3 +32,8 @@
 ;  this allows for rectangular mark with C-<Enter>
 (cua-mode)
 (setq cua-enable-cua-keys nil)
+(c-subword-mode t)
+
+(if (eq my-startshell t) (shell))
+(if (eq my-usemenu t) 
+    (if (fboundp 'menu-bar-mode) (menu-bar-mode 1)))

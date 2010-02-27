@@ -7,4 +7,4 @@
 (setq calendar-daylight-time-zone-name "EDT")
 
 (add-hook 'diary-hook 'appt-make-list)
-(diary)
+;(diary)

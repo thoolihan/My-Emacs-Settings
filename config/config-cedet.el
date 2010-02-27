@@ -1,7 +1,7 @@
 ;; Load CEDET.
 ;; See cedet/common/cedet.info for configuration details.
-(add-path "cedet-1.0pre6/")
-(add-path "cedet-1.0pre6/common/")
+(add-path "cedet-1.0pre7/")
+(add-path "cedet-1.0pre7/common/")
 (load-library "cedet")
 
 

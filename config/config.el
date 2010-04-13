@@ -34,6 +34,7 @@
 (setq cua-enable-cua-keys nil)
 (c-subword-mode t)
 
-(if (eq my-startshell t) (shell))
+(if (eq my-startshell t) 
+    (if (eq my-ostype 'linux) (term "/bin/bash") (shell)))
 (if (eq my-usemenu t) 
     (if (fboundp 'menu-bar-mode) (menu-bar-mode 1)))

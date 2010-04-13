@@ -27,6 +27,7 @@
                       "config-php"
                       "config-nxml"
                       "config-sql"
+                      "config-ri"
                       "config-ruby-flymake"
                       "config-ruby"
                       "config-vb"

@@ -1,0 +1,1 @@
+(load-file "~/emacs/nxhtml/autostart.el")

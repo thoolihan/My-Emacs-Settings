@@ -1,7 +1,3 @@
-;; Interactively Do Things (highly recommended, but not strictly required)
-(require 'ido)
-(ido-mode t)
-     
-;; Rinari
-(add-path "rinari")
-(require 'rinari)
+;; Ri
+(add-path "ri")
+(load-file "~/emacs/ri/ri.el")

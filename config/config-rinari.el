@@ -3,5 +3,5 @@
 (ido-mode t)
      
 ;; Rinari
-(add-to-list 'load-path "~/path/to/your/elisp/rinari")
+(add-to-list 'load-path "~/emacs/rinari")
 (require 'rinari)

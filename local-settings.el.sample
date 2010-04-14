@@ -13,4 +13,3 @@
 (setq sql-server "localhost")
 (setq twittering-username "your-twitter-username")
 (setq twittering-password "your-twitter-pass")
-;tset

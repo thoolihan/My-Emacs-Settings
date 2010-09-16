@@ -1,5 +1,4 @@
-/.emacs.desktop
-/.emacs.desktop.lock
+/.emacs.desktop*
 /local-settings.el
 /diary
 /git-emacs/desktop.ini

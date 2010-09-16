@@ -31,7 +31,7 @@
                       "config-ri"
                       "config-rinari"
                       "config-vb"
-                      "config-magit"
+                      "config-version-control"
                       "config-shell"
                       "config-ssh"
                       "config-yasnippet"

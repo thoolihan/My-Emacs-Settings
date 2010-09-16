@@ -12,7 +12,7 @@
  `(ecb-create-layout-file "~/emacs/config/.ecb-user-layouts.el")
  `(ecb-layout-name ,my-ecb-layout)
  `(ecb-options-version "2.40")
- `(ecb-source-path (quote (("~/emacs/" "emacs") (,my-workspace-dir "workspace") ("~" "home"))))
+ `(ecb-source-path (quote (("~/emacs/" "emacs") (,my-workspace-dir "workspace") ("~" "home") ("~/My Dropbox" "dropbox"))))
  `(ecb-tar-setup (quote cons))
  `(ecb-tip-of-the-day nil)
  `(ecb-tree-buffer-style (quote image))

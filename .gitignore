@@ -1,0 +1,7 @@
+/.emacs.desktop
+/.emacs.desktop.lock
+/local-settings.el
+/local-settings.el~
+/diary
+/git-emacs/desktop.ini
+"*.el~" 

@@ -2,4 +2,4 @@
 /local-settings.el
 /diary
 /git-emacs/desktop.ini
-"*.el~" 
+"*.el~" *-history.sql

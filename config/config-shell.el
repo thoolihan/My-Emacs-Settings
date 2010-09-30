@@ -8,3 +8,6 @@
   (let ((explicit-shell-file-name "C:/Program Files (x86)/Git/bin/sh.exe")
         (explicit-sh-args '("-login" "-i")))
     (call-interactively 'shell)))
+
+(setq eshell-save-history-on-exit t)
+(setq eshell-ask-to-save-last-dir 'always)

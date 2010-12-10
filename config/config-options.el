@@ -34,5 +34,6 @@
  `(ruby-indent-tabs-mode t)
  `(server-kill-new-buffers t))
 
+(setq warning-suppress-types nil)
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)

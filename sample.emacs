@@ -1,8 +1,6 @@
+(require 'cl)
 (defvar emacs-directory "~/emacs/")
 (defvar emacs-root emacs-directory)
-(server-start)
-(require 'calendar)
-(require 'cl)
 
 (defun add-path (p)	
   (add-to-list 'load-path	
@@ -42,3 +40,4 @@
         (load-library config-file)))
 
 (if (eq t use-ecb)  (load-library "config-ecb"))
+(server-start)

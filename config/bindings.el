@@ -9,6 +9,8 @@
 (global-set-key "\M-s" 'isearch-forward-regexp)
 (global-set-key "\M-p" 'fill-paragraph)
 (global-set-key "\C-x\C-am" 'add-mode-abbrev)
+(global-set-key "\C-\M-y" 'browse-kill-ring)
+
 (defalias 'qrr 'query-replace-regexp)
 (defalias 'qr 'query-replace)
 (defalias 'sb 'swap-buffers)

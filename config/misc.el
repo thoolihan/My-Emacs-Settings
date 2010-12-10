@@ -1,4 +1,3 @@
-(load-library "open_textmate")
 (load-library "wc")
 (load-library "window-number")
 (load-library "countchars.el")

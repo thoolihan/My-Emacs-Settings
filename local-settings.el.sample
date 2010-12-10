@@ -7,7 +7,7 @@
 (setq my-startshell t)
 (setq my-usemenu t)
 (setq use-lambda t)
-(setq user-emacs-directory concat(emacs-directory ".emacs.d"))
+(setq user-emacs-directory (concat emacs-directory ".emacs.d"))
 (setq my-workspace-dir "d:/workspace/")
 (setq my-dropbox-dir "~/My Dropbox")
 (setq my-ecb-layout "right-sources-and-methods")

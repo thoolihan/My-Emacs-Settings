@@ -11,7 +11,6 @@
 (add-path "")
 (add-path "config")
 (let ((myconfig '("local-settings"
-                  "visual"
                   "config"
                   "config-abbrev"
                   "config-options"
@@ -36,6 +35,7 @@
                   "config-yegge"
                   "config-tempfiles"
                   "config-cedet"
+		          "visual"
                   "misc")))
 
   (loop for config-file in myconfig do 

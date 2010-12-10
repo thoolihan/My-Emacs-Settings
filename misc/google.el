@@ -17,3 +17,8 @@
   "search wikipedia"
   (interactive "sSearch Terms: ")
   (google (concat s " site:en.wikipedia.org")))
+
+(defun wwwlisp (s)
+  "search l1sp.org"
+  (interactive "sSearch Terms: ")
+  (browse-url (concat "http://l1sp.org/cl/" s)))

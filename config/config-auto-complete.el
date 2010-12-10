@@ -6,5 +6,3 @@
 (define-key ac-complete-mode-map "\C-p" 'ac-previous)
 ; complete with tabs
 (define-key ac-complete-mode-map "\t" 'ac-complete)
-(define-key ac-complete-mode-map " " 'ac-complete)
-

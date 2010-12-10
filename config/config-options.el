@@ -9,7 +9,7 @@
  `(ecb-auto-activate t)
  `(ecb-fix-window-size t)
  `(ecb-gzip-setup (quote cons))
- `(ecb-create-layout-file "~/emacs/config/.ecb-user-layouts.el")
+ `(ecb-create-layout-file (concat ,emacs-directory "config/.ecb-user-layouts.el"))
  `(ecb-layout-name ,my-ecb-layout)
  `(ecb-options-version "2.40")
  `(ecb-source-path (quote ((,emacs-directory "emacs") (,my-workspace-dir "workspace") ("~" "home") (,my-dropbox-dir "dropbox"))))

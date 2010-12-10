@@ -12,6 +12,7 @@
 
 ; ej from yegge, -- console
 (autoload 'js-console "js-console" nil t)
+
 ; javascript-mode - for running shell in a buffer
 (load-library "javascript-mode")
 (setq javascript-shell-command "rhino")

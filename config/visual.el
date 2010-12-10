@@ -2,7 +2,11 @@
 (add-path "color-theme/")
 (add-path "color-theme/themes/")
 
-(when (or (eq my-ostype 'windows) (eq my-ostype 'mac) (eq window-system 'x))
+(when 
+    (or 
+     (eq my-ostype 'windows) 
+     (eq my-ostype 'mac) 
+     (eq window-system 'x))
   (setq frame-title-format "edit - %b")
   (require 'color-theme)
   (color-theme-initialize)
@@ -10,3 +14,10 @@
 
 (when (eq my-ostype 'windows)
   (set-face-font 'default "Monaco-9"))
+
+(global-hl-line-mode t)
+
+(add-path "misc/")
+(require 'col-highlight)
+(column-highlight-mode t)
+

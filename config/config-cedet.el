@@ -1,7 +1,7 @@
 ;; Load CEDET.
 ;; See cedet/common/cedet.info for configuration details.
-(add-path "cedet-1.0pre7/")
-(add-path "cedet-1.0pre7/common/")
+(add-path "cedet-1.0/")
+(add-path "cedet-1.0/common/")
 (load-library "cedet")
 
 
@@ -24,7 +24,7 @@
 
 ;; * This enables even more coding tools such as intellisense mode
 ;;   decoration mode, and stickyfunc mode (plus regular code helpers)
-;; (semantic-load-enable-gaudy-code-helpers)
+ (semantic-load-enable-gaudy-code-helpers)
 
 ;; * This enables the use of Exuberent ctags if you have it installed.
 ;;   If you use C++ templates or boost, you should NOT enable it.

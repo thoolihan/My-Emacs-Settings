@@ -9,4 +9,4 @@
   (eval `(,my-theme)))
 
 (when (eq my-ostype 'windows)
-  (set-face-font 'default "Monaco-8"))
+  (set-face-font 'default "Monaco-9"))

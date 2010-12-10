@@ -5,14 +5,14 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  `(browse-url-browser-function (quote browse-url-default-windows-browser))
- `(diary-file "~/emacs/diary")
+ `(diary-file (concat emacs-directory "diary"))
  `(ecb-auto-activate t)
  `(ecb-fix-window-size t)
  `(ecb-gzip-setup (quote cons))
  `(ecb-create-layout-file "~/emacs/config/.ecb-user-layouts.el")
  `(ecb-layout-name ,my-ecb-layout)
  `(ecb-options-version "2.40")
- `(ecb-source-path (quote (("~/emacs/" "emacs") (,my-workspace-dir "workspace") ("~" "home") ("~/My Dropbox" "dropbox"))))
+ `(ecb-source-path (quote ((,emacs-directory "emacs") (,my-workspace-dir "workspace") ("~" "home") (,my-dropbox-dir "dropbox"))))
  `(ecb-tar-setup (quote cons))
  `(ecb-tip-of-the-day nil)
  `(ecb-tree-buffer-style (quote image))

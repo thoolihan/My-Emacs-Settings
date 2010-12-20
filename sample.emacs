@@ -1,3 +1,4 @@
+(server-start)
 (require 'cl)
 (defvar emacs-directory "~/emacs/")
 (defvar emacs-root emacs-directory)
@@ -40,4 +41,4 @@
         (load-library config-file)))
 
 (if (eq t use-ecb)  (load-library "config-ecb"))
-(server-start)
+

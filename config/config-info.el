@@ -1,3 +1,4 @@
 ; info path
-(setq Info-additional-directory-list  '((concat emacs-directory "ecb/info-help/")))
-(setq Info-additional-directory-list  '((concat emacs-directory "nxml/")))
+(setq Info-additional-directory-list  
+      '((concat emacs-directory "ecb/info-help/")
+        (concat emacs-directory "nxml/")))

@@ -1,0 +1,33 @@
+(eval-when-compile
+  (require 'color-theme))
+
+(defun color-theme-tim ()
+  "Tim theme."
+  (interactive)
+  (color-theme-install
+   '(color-theme-tim
+     ((foreground-color . "#282828")
+      (background-color . "#f8f8f8")
+      (background-mode . light))
+     (default ((t (nil))))
+     (region ((t (:foreground "#222222" :background "#aaaaaa"))))
+     (underline ((t (:foreground "yellow" :underline t))))
+     (modeline ((t (:foreground "#eeeeee" :background "#333333"))))
+     (modeline-buffer-id ((t (:foreground "#ffffff" :background "#000000"))))
+     (modeline-mousable ((t (:foreground "White" :background "#555555"))))
+     (modeline-mousable-minor-mode ((t (:foreground "dark cyan" :background "wheat"))))
+     (italic ((t (:foreground "dark red" :italic t))))
+     (bold-italic ((t (:foreground "dark red" :bold t :italic t))))
+     (highlight ((t (:background "#dddddd"))))
+     (highline-face ((t (:background "SeaGreen"))))
+     (font-lock-comment-face ((t (:italic t :foreground "DarkGreen"))))
+     (font-lock-constant-face ((t (:foreground "Navy"))))
+     (font-lock-doc-string-face ((t (:italic t :foreground "Red"))))
+     (font-lock-function-name-face ((t (:foreground "SeaGreen"))))
+     (font-lock-keyword-face ((t (:foreground "Blue"))))
+     (font-lock-variable-name-face ((t (:foreground "Purple"))))
+     (font-lock-string-face ((t (:foreground "VioletRed4"))))
+     (font-lock-preprocessor-face ((t (:foreground "SkyBlue"))))
+     (font-lock-reference-face ((t (:foreground "SlateBlue"))))
+     (semantic-decoration-on-unknown-includes ((t (:foreground "Navy" :background "#eeeeee"))))
+     (bold ((t (:bold)))))))

@@ -5,6 +5,7 @@
 (load-library "fullscreen")
 (load-library "browse-kill-ring")
 (load-library "edit-server")
+(load-library "ext-tools")
 
 (if (eq use-lambda t)
     (lambda

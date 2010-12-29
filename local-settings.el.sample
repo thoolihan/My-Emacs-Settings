@@ -16,3 +16,10 @@
 (setq sql-password "put-password-here")
 (setq sql-database "mysql")
 (setq sql-server "localhost")
+
+(setq ext-tools-path-ide-net "c:\\\"Program Files (x86)\"\\\"Microsoft Visual Studio 10.0\"\\Common7\\IDE\\devenv.exe")
+(setq ext-tools-path-ide-java "d:\\tools\\eclipse\\eclipse.exe")
+(setq ext-tools-path-browser (expand-file-name "~\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe")))
+(setq ext-tools-path-mail "c:\\\"Program Files\"\\\"Microsoft Office\"\\Office14")
+(setq ext-tools-path-music "c:\\\"Program Files\"\\iTunes\\iTunes.exe")
+(setq ext-tools-path-gitbash "C:\\Windows\\SysWOW64\\cmd.exe /c \"C:\\Program Files (x86)\\Git\\Git\\bin\\sh.exe\" --login -i")

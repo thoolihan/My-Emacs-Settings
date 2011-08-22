@@ -1,0 +1,1 @@
+(setq auto-mode-alist (cons '("\\.xaml$" . xml-mode) auto-mode-alist))

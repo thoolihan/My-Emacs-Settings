@@ -17,25 +17,19 @@
                   "config-auto-complete"
                   "config-clojure"
                   "config-csharp"
-                  "config-css"                      
+                  "config-xaml"
                   "config-info"
-                  "config-javascript"
-                  "config-nxhtml"
                   "config-powershell"
-                  "config-sql"
-                  "config-ruby-flymake"
                   "config-ri"
-                  "config-rinari"
-                  "config-version-control"
                   "config-shell"
                   "config-ssh"
                   "config-style"
                   "config-yasnippet"
                   "config-yegge"
                   "config-tempfiles"
-                  "config-cedet"
-		          "visual"
-                  "misc")))
+	              "visual"
+                  "misc"
+                  "config-cedet")))
 
   (loop for config-file in myconfig do 
         (load-library config-file)))

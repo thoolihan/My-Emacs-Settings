@@ -2,6 +2,10 @@
 ;; See cedet/common/cedet.info for configuration details.
 (add-path "cedet-1.0/")
 (add-path "cedet-1.0/common/")
+(add-path "cedet-1.0/eieio/")
+(add-path "cedet-1.0/semantic/")
+(add-path "cedet-1.0/srecode/")
+(add-path "cedet-1.0/ede/")
 (load-library "cedet")
 
 

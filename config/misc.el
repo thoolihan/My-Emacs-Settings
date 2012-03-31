@@ -6,11 +6,12 @@
 (load-library "browse-kill-ring")
 (load-library "edit-server")
 (load-library "ext-tools")
+(print "DEBUG GOT THIS FAR")
 
 (if (eq use-lambda t)
     (lambda
       (require 'pretty-lambdada)
       (pretty-lambda-for-modes)))
 
-(require 'edit-server)
-(edit-server-start)
+;(require 'edit-server)
+;(edit-server-start)

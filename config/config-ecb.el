@@ -4,9 +4,9 @@
 (autoload 'eieio "eieio" nil t)
 
 ; semantic
-(autoload 'semantic "semantic" nil t)
-(setq semantic-load-turn-everything-on t)
-(require 'semantic-load)
+;(autoload 'semantic "semantic" nil t)
+;(setq semantic-load-turn-everything-on t)
+;(require 'semantic-load)
 
 ; speedbar
 (autoload 'speedbar "speedbar" nil t)

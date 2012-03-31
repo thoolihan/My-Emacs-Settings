@@ -12,7 +12,13 @@
   (color-theme-initialize)
   (eval `(,my-theme)))
 
+(set-face-bold-p 'bold nil)
+; disable bold
 (set-face-font 'default my-type-face)
+(mapc
+  (lambda (face)
+    (set-face-attribute face nil :weight 'normal :underline nil))
+  (face-list))
 
 (global-hl-line-mode t)
 

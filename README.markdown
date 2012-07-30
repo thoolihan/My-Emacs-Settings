@@ -6,7 +6,7 @@
 3. copy ~/emacs/local-settings.el.sample to ~/emacs/local-settings.el
 4. edit the ~/emacs/local-settings.el file with the options you prefer, example below:
 
-'''
+```elisp
 (setq my-ostype 'windows) ; windows mac linux
 ;(setq my-theme 'color-theme-twilight)
 ;(setq my-theme 'color-theme-charcoal-black)
@@ -22,7 +22,7 @@
 (setq my-workspace-dir "~/workspace/")
 (setq my-dropbox-dir "~/Dropbox")
 (setq my-ecb-layout "right-sources-and-methods")
-'''
+```
 
 ##Questions
 twitter: [@thoolihan](http://twitter.com/thoolihan)

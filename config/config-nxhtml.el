@@ -14,3 +14,5 @@
 
 (setq auto-mode-alist
       (append '(("\\.config$" . nxhtml-mode)) auto-mode-alist))
+
+(setq mumamo-chunk-coloring 1)

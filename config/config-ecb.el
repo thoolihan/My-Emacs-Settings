@@ -3,6 +3,14 @@
 (add-path"eieio/")
 (autoload 'eieio "eieio" nil t)
 
+(require 'semantic/analyze)
+(provide 'semantic-analyze)
+(provide 'semantic-ctxt)
+(provide 'semanticdb)
+(provide 'semanticdb-find)
+(provide 'semanticdb-mode)
+(provide 'semantic-load)
+
 ; semantic
 ;(autoload 'semantic "semantic" nil t)
 ;(setq semantic-load-turn-everything-on t)

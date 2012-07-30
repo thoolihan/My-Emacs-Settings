@@ -1,9 +1,12 @@
-(setq my-ostype 'windows) ; windows mac linux
-(setq my-theme 'color-theme-twilight)
+(setq my-ostype 'mac) ; windows mac linux
+;(setq my-theme 'color-theme-twilight)
 ;(setq my-theme 'color-theme-charcoal-black)
-(setq my-theme 'color-theme-vim-colors)
+;(setq my-theme 'color-theme-vim-colors)
 ;(setq my-theme 'color-theme-feng-shui)
-(setq my-type-face "Courier New-10")
+(setq my-theme 'color-theme-railscasts)
+;(setq my-type-face "Courier New-13")
+(setq my-type-face "Monaco 11")
+(setq my-theme-hline "black") ; hightlight line color
 (setq use-ecb t)
 (setq my-use-col-highlight nil)
 (setq my-startshell t)

@@ -21,6 +21,7 @@
   (face-list))
 
 (global-hl-line-mode t)
+(set-face-background 'hl-line my-theme-hline)
 
 (add-path "misc/")
 (if (eq my-use-col-highlight t)

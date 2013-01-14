@@ -13,7 +13,6 @@
 ;(setq my-theme 'color-theme-vim-colors)
 ;(setq my-theme 'color-theme-feng-shui)
 (setq my-type-face "Courier New-13")
-(setq use-ecb t)
 (setq my-use-col-highlight nil)
 (setq my-startshell t)
 (setq my-usemenu t)
@@ -21,7 +20,6 @@
 (setq user-emacs-directory (concat emacs-directory ".emacs.d"))
 (setq my-workspace-dir "~/workspace/")
 (setq my-dropbox-dir "~/Dropbox")
-(setq my-ecb-layout "right-sources-and-methods")
 ```
 
 ##Questions

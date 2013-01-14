@@ -18,8 +18,6 @@
 (defalias 'df 'delete-frame)
 (defalias 'ts 'my-toggle-fullscreen)
 (defalias 'ew 'emacswiki)
-(global-set-key "\C-c\C-d" 'ecb-deactivate)
-(global-set-key "\C-c\C-e" 'ecb-activate)
 
 (global-set-key [f5] 'call-last-kbd-macro)
 (global-set-key [f6] 'compile)

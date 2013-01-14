@@ -1,5 +1,4 @@
 ; eieio
-(add-path "ecb-2.40/")
 (add-path"eieio/")
 (autoload 'eieio "eieio" nil t)
 
@@ -22,7 +21,6 @@
       [speedbar] '("Speedbar" . speedbar-frame-mode) [calendar])
 (global-set-key [(f4)] 'speedbar-get-focus)
 
-; ecb
 (require 'ecb)
 
 (autoload 'window-number-mode "window-number"

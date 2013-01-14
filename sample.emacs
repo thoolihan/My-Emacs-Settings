@@ -40,5 +40,3 @@
   (loop for config-file in myconfig do 
         (load-library config-file)))
 
-(if (eq t use-ecb)  (load-library "config-ecb"))
-

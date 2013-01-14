@@ -3,10 +3,12 @@
 (add-path "color-theme/themes/")
 
 (when 
-    (or 
-     (eq my-ostype 'windows) 
-     (eq my-ostype 'mac) 
-     (eq window-system 'x))
+    (and
+     (eq use-theme t)
+     (or 
+      (eq my-ostype 'windows) 
+      (eq my-ostype 'mac) 
+      (eq window-system 'x)))
   (setq frame-title-format "edit - %b")
   (require 'color-theme)
   (color-theme-initialize)

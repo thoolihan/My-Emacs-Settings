@@ -28,9 +28,6 @@
  `(ediff-split-window-function 'split-window-horizontally)
  `(fill-column 78)
  `(inhibit-startup-screen t)
- `(js2-allow-keywords-as-property-names nil)
- `(js2-highlight-level 3)
- `(js2-indent-on-enter-key nil)
  `(ruby-indent-tabs-mode t)
  `(server-kill-new-buffers t))
 

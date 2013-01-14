@@ -1,7 +1,4 @@
 ; customize editor
-(add-path "misc/")
-(add-path"slime/")
-
 (require 'linum)
 (global-linum-mode t)
 
@@ -40,6 +37,8 @@
 (cua-mode)
 (setq cua-enable-cua-keys nil)
 (subword-mode t)
+
+(setq vc-handled-backends `(Git Hg SVN))
 
 (if (eq my-startshell t) 
     (eshell))

@@ -9,6 +9,7 @@
 (setq user-emacs-directory (concat emacs-directory ".emacs.d"))
 (setq my-workspace-dir "d:/workspace/")
 (setq my-dropbox-dir "~/My Dropbox")
+(setq my-mysql-path "/usr/local/bin/mysql")
 (setq sql-user "root")
 (setq sql-password "put-password-here")
 (setq sql-database "mysql")

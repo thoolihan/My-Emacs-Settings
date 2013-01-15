@@ -19,6 +19,7 @@
 (add-hook 'sql-interactive-mode-hook 'my-sql-save-history-hook)
 
 (if (eq my-ostype 'windows) (setq sql-mysql-options '("-C" "-t" "-f" "-n")))
+(setq sql-mysql-program my-mysql-path)
 
 (require 'pg) ; postgres
 (require 'plsql) ; plsql mode for oracle scripting

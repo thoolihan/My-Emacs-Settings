@@ -1,4 +1,5 @@
 ; custom key bindings
+(global-set-key "\C-xO" 'previous-multiframe-window)
 (global-set-key "\C-x\C-m" 'execute-extended-command)
 (global-set-key "\C-c\C-m" 'execute-extended-command)
 (global-set-key "\M-z" 'backward-kill-word)

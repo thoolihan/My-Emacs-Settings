@@ -1,0 +1,3 @@
+[submodule "markdown-mode"]
+	path = markdown-mode
+	url = git://jblevins.org/git/markdown-mode.git

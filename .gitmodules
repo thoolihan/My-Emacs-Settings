@@ -1,3 +1,6 @@
 [submodule "markdown-mode"]
 	path = markdown-mode
 	url = git://jblevins.org/git/markdown-mode.git
+[submodule "coffee-mode"]
+	path = coffee-mode
+	url = git://github.com/defunkt/coffee-mode.git

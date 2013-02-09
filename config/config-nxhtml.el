@@ -1,6 +1,9 @@
 (load-file "~/emacs/nxhtml/autostart.el")
 
 (setq auto-mode-alist
+      (append '(("\\.html$" . nxhtml-mode)) auto-mode-alist))
+
+(setq auto-mode-alist
       (append '(("\\.xaml$" . nxhtml-mode)) auto-mode-alist))
 
 (setq auto-mode-alist

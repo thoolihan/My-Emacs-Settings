@@ -1,7 +1,6 @@
-; sql
 (add-path "sql/")
 
-(require 'sql)
+;(require 'sql)
 (add-to-list 'same-window-buffer-names "*SQL*")
 (defun my-sql-save-history-hook ()
   (let ((lval 'sql-input-ring-file-name)

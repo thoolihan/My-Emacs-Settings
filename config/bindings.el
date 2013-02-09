@@ -20,5 +20,6 @@
 (defalias 'ts 'my-toggle-fullscreen)
 (defalias 'ew 'emacswiki)
 
-(global-set-key [f5] 'call-last-kbd-macro)
-(global-set-key [f6] 'compile)
+(global-set-key [f5] 'compile)
+(global-set-key [f6] 'call-last-kbd-macro)
+(windmove-default-keybindings 'meta)

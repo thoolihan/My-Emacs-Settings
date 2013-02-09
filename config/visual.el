@@ -2,8 +2,10 @@
 (add-path "color-theme/")
 (add-path "color-theme/themes/")
 
+(setq-default cursor-type 'bar)
 (global-hl-line-mode t)
 (set-face-background 'hl-line my-theme-hline)
+(set-cursor-color "#2288ff")
 
 (when 
     (and

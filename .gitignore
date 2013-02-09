@@ -6,4 +6,6 @@
 *-history.sql
 *.elc
 .emacs.d
+cedet-1.1
+ecb-2.40
 

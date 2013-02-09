@@ -10,3 +10,6 @@
 [submodule "haml"]
 	path = haml
 	url = git://github.com/nex3/haml-mode.git
+[submodule "magit"]
+	path = magit
+	url = git://github.com/magit/magit.git

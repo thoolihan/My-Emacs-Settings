@@ -1,8 +1,8 @@
 (setq my-ostype 'mac) ; windows mac linux
-(setq my-theme 'color-theme-vim-colors)
-(setq my-type-face "Monaco 12")
+(setq my-theme 'sublime-text-2)
+(setq my-type-face "Courier New 15")
 (setq use-theme nil)
-(setq my-theme-hline "silver") ; hightlight line color
+(setq my-theme-hline "#2f4f4f") ; hightlight line color
 (setq my-use-col-highlight nil)
 (setq my-startshell t)
 (setq my-usemenu t)

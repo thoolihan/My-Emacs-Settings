@@ -19,10 +19,10 @@
 
 (set-face-bold-p 'bold nil)
 ; disable bold
-(set-face-font 'default my-type-face)
+(set-face-font 'default my-type-face) 
 (mapc
   (lambda (face)
-    (set-face-attribute face nil :weight 'normal :underline nil))
+    (set-face-attribute face nil :weight 'light :underline nil))
   (face-list))
 
 (add-path "misc/")

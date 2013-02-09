@@ -2,6 +2,9 @@
 (add-path "color-theme/")
 (add-path "color-theme/themes/")
 
+(global-hl-line-mode t)
+(set-face-background 'hl-line my-theme-hline)
+
 (when 
     (and
      (eq use-theme t)
@@ -21,9 +24,6 @@
   (lambda (face)
     (set-face-attribute face nil :weight 'normal :underline nil))
   (face-list))
-
-(global-hl-line-mode t)
-(set-face-background 'hl-line my-theme-hline)
 
 (add-path "misc/")
 (if (eq my-use-col-highlight t)

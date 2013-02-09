@@ -7,3 +7,6 @@
 [submodule "yasnippet"]
 	path = yasnippet
 	url = git://github.com/capitaomorte/yasnippet.git
+[submodule "haml"]
+	path = haml
+	url = git://github.com/nex3/haml-mode.git

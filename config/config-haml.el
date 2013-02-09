@@ -1,2 +1,2 @@
 (add-path "haml")
-(load-file "~/emacs/haml/haml-mode.el")
+(require 'haml-mode)

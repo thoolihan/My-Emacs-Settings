@@ -19,6 +19,7 @@
                  "config-auto-complete"
                  "config-coffeescript"
                  "config-csharp.el"
+                 "config-helm"
                  "config-haml"
                  "config-info"
                  "config-magit"

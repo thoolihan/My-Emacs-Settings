@@ -1,5 +1,8 @@
 (load-library "wc")
 (load-library "window-number")
+(load-library "dired-details")
+;(require 'dired-details)
+(dired-details-install)
 (load-library "countchars.el")
 (load-library "google")
 (load-library "fullscreen")

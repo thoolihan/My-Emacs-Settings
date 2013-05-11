@@ -6,4 +6,4 @@
 (define-key ac-complete-mode-map "\C-p" 'ac-previous)
 ; complete with tabs
 ;(define-key ac-complete-mode-map "\t" 'ac-complete)
-(ac-set-trigger-key "ENTER")
+(ac-set-trigger-key "RET")

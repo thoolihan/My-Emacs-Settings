@@ -18,7 +18,7 @@
 
 ; also see config-style
 (setq-default indent-tabs-mode nil)
-(setq-default tab-width 4)
+(setq-default tab-width 2)
 
 (setq split-width-threshold nil)  ;fixes window behavior
 (global-set-key [f12] 'toggle-truncate-lines)
@@ -40,7 +40,7 @@
 
 (setq vc-handled-backends `(Git Hg SVN))
 
-(if (eq my-startshell t) 
-    (eshell))
+;(if (eq my-startshell t) 
+;    (eshell))
 
 

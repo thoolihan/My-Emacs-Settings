@@ -1,15 +1,15 @@
 ; eieio
-(add-path"eieio/")
-(autoload 'eieio "eieio" nil t)
+;(add-path"eieio/")
+;(autoload 'eieio "eieio" nil t)
 
-(require 'semantic/analyze)
-(provide 'semantic-analyze)
-(provide 'semantic-ctxt)
-(provide 'semanticdb)
-(provide 'semanticdb-find)
-(provide 'semanticdb-mode)
-(provide 'semantic-load)
+;; (require 'semantic/analyze)
+;; (provide 'semantic-analyze)
+;; (provide 'semantic-ctxt)
+;; (provide 'semanticdb)
+;; (provide 'semanticdb-find)
+;; (provide 'semanticdb-mode)
+;; (provide 'semantic-load)
 
-(add-path "ecb-2.40/")
+(add-path "ecb/")
 (require 'ecb)
 

@@ -18,8 +18,7 @@
 (defalias 'rb 'revert-buffer)
 (defalias 'df 'delete-frame)
 (defalias 'ts 'my-toggle-fullscreen)
-(defalias 'ew 'emacswiki)
 
-(global-set-key [f5] 'compile)
-(global-set-key [f6] 'call-last-kbd-macro)
+(global-set-key "\M-C" 'compile)
+(global-set-key "\M-M" 'call-last-kbd-macro)
 (windmove-default-keybindings 'meta)

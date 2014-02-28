@@ -35,7 +35,7 @@
 
 (defadvice save-buffers-kill-emacs (around no-query-kill-emacs activate)
   "Prevent annoying \"Active processes exist\" query when you quit Emacs."
-  (flet ((process-list ())) ad-do-it))
+  (cl-flet ((process-list ())) ad-do-it))
 
 (defun swap-buffers ()
   "If you have 2 windows, it swaps them." 

@@ -1,5 +1,3 @@
-(add-path "yasnippet")
+(add-path "yasnippets")
 (require 'yasnippet)
-;(yas/initialize)
-;(yas/load-directory (concat emacs-directory "yasnippet/snippets"))
 (yas-global-mode 1)

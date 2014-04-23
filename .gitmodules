@@ -20,3 +20,15 @@
 [submodule "less"]
 	path = less
 	url = git@github.com:purcell/less-css-mode.git
+[submodule "yasnippets"]
+	path = yasnippets
+	url = https://github.com/capitaomorte/yasnippet
+[submodule "rspec"]
+	path = rspec
+	url = git@github.com:pezra/rspec-mode.git
+[submodule "inf-ruby"]
+	path = inf-ruby
+	url = git@github.com:nonsequitur/inf-ruby.git
+[submodule "rvm"]
+	path = rvm
+	url = git@github.com:senny/rvm.el.git

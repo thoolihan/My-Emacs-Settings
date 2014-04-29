@@ -1,5 +1,6 @@
 ; customize editor
 (global-linum-mode 1)
+(global-auto-revert-mode 1)
 
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))

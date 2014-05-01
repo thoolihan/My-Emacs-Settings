@@ -32,3 +32,6 @@
 [submodule "rvm"]
 	path = rvm
 	url = git@github.com:senny/rvm.el.git
+[submodule "cucumber.el"]
+	path = cucumber.el
+	url = git@github.com:michaelklishin/cucumber.el.git

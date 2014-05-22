@@ -35,3 +35,6 @@
 [submodule "cucumber.el"]
 	path = cucumber.el
 	url = git@github.com:michaelklishin/cucumber.el.git
+[submodule "exec-path-from-shell"]
+	path = exec-path-from-shell
+	url = git@github.com:purcell/exec-path-from-shell.git

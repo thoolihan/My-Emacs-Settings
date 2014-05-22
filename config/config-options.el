@@ -15,7 +15,6 @@
  `(ediff-split-window-function 'split-window-horizontally)
  `(fill-column 78)
  `(inhibit-startup-screen t)
- `(ruby-indent-tabs-mode t)
  `(server-kill-new-buffers t))
 
 (setq-default display-buffer-reuse-frames t)

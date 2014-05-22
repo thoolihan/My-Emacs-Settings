@@ -9,4 +9,4 @@
 
 (add-path "rcodetools/")
 (require 'rcodetools)
-(define-key ruby-mode-map (kbd "C-c C-c") 'xmp)
+;(define-key ruby-mode-map (kbd "C-c C-c") 'xmp)

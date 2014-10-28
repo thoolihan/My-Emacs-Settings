@@ -41,3 +41,6 @@
 [submodule "dash-at-point"]
 	path = dash-at-point
 	url = git@github.com:stanaka/dash-at-point.git
+[submodule "neotree"]
+	path = neotree
+	url = https://github.com/jaypei/emacs-neotree.git

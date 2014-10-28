@@ -13,6 +13,7 @@
 (let ((myconfig '(
                  "local-settings"
                  "config"
+                 "config-neotree"
                  "config-abbrev"
                  "config-options"
                  "bindings"
@@ -24,6 +25,7 @@
                  "config-info"
                  "config-magit"
                  "config-markdown"
+                 "config-midnight"
                  "config-nxhtml"
                  "config-shell"
                  "config-ssh"

@@ -44,3 +44,6 @@
 [submodule "neotree"]
 	path = neotree
 	url = https://github.com/jaypei/emacs-neotree.git
+[submodule "pig-mode"]
+	path = pig-mode
+	url = https://github.com/motus/pig-mode

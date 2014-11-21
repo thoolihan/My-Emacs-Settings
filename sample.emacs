@@ -27,6 +27,7 @@
                  "config-markdown"
                  "config-midnight"
                  "config-nxhtml"
+                 "config-pig"
                  "config-shell"
                  "config-ssh"
                  "config-style"

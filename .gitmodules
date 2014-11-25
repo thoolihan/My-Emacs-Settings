@@ -47,3 +47,12 @@
 [submodule "pig-mode"]
 	path = pig-mode
 	url = https://github.com/motus/pig-mode
+[submodule "json-mode"]
+	path = json-mode
+	url = git@github.com:joshwnj/json-mode.git
+[submodule "json-snatcher"]
+	path = json-snatcher
+	url = git@github.com:Sterlingg/json-snatcher.git
+[submodule "json-reformat"]
+	path = json-reformat
+	url = git@github.com:gongo/json-reformat.git

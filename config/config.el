@@ -27,7 +27,7 @@
 (setq-default truncate-lines 'true)
 (defalias 'yes-or-no-p 'y-or-n-p)
 (display-time) 
-(setq-default transient-mark-mode t)
+(setq-default transient-mark-mode nil)
 (delete-selection-mode t)
 (add-hook 'c-mode-common-hook
                (lambda () (subword-mode t)))
@@ -39,6 +39,8 @@
 (subword-mode t)
 
 (setq vc-handled-backends `(Git Hg SVN))
+
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 ;(if (eq my-startshell t) 
 ;    (eshell))

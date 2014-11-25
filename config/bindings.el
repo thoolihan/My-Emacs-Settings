@@ -11,6 +11,8 @@
 (global-set-key "\M-p" 'fill-paragraph)
 (global-set-key "\C-x\C-am" 'add-mode-abbrev)
 (global-set-key "\C-\M-y" 'browse-kill-ring)
+(global-set-key (kbd "s-/") 'comment-region)
+(global-set-key (kbd "M-s-÷") 'uncomment-region)
 
 (defalias 'qrr 'query-replace-regexp)
 (defalias 'qr 'query-replace)

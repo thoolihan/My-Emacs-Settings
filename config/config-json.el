@@ -1,0 +1,6 @@
+(add-path "json-reformat/")
+(require 'json-reformat)
+(add-path "json-snatcher/")
+(require 'json-snatcher)
+(add-path "json-mode/")
+(require 'json-mode)

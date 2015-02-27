@@ -1,4 +1,6 @@
-(add-path "autocomplete/")
+(add-path "popup-el/")
+(require 'popup)
+(add-path "auto-complete/")
 (require 'auto-complete)
 (global-auto-complete-mode t)
 ; allow C-n C-p to move in completion list

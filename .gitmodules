@@ -4,12 +4,6 @@
 [submodule "coffee-mode"]
 	path = coffee-mode
 	url = git://github.com/defunkt/coffee-mode.git
-[submodule "haml"]
-	path = haml
-	url = git://github.com/nex3/haml-mode.git
-[submodule "magit"]
-	path = magit
-	url = git://github.com/magit/magit.git
 [submodule "helm"]
 	path = helm
 	url = https://github.com/emacs-helm/helm.git
@@ -17,42 +11,24 @@
 	path = yaml
 	url = https://github.com/yoshiki/yaml-mode
 
-[submodule "less"]
-	path = less
-	url = git@github.com:purcell/less-css-mode.git
 [submodule "yasnippets"]
 	path = yasnippets
 	url = https://github.com/capitaomorte/yasnippet
-[submodule "rspec"]
-	path = rspec
-	url = git@github.com:pezra/rspec-mode.git
-[submodule "inf-ruby"]
-	path = inf-ruby
-	url = git@github.com:nonsequitur/inf-ruby.git
 [submodule "rvm"]
 	path = rvm
 	url = git@github.com:senny/rvm.el.git
 [submodule "cucumber.el"]
 	path = cucumber.el
 	url = git@github.com:michaelklishin/cucumber.el.git
-[submodule "exec-path-from-shell"]
-	path = exec-path-from-shell
-	url = git@github.com:purcell/exec-path-from-shell.git
 [submodule "dash-at-point"]
 	path = dash-at-point
 	url = git@github.com:stanaka/dash-at-point.git
 [submodule "neotree"]
 	path = neotree
 	url = https://github.com/jaypei/emacs-neotree.git
-[submodule "pig-mode"]
-	path = pig-mode
-	url = https://github.com/motus/pig-mode
-[submodule "json-mode"]
-	path = json-mode
-	url = git@github.com:joshwnj/json-mode.git
-[submodule "json-snatcher"]
-	path = json-snatcher
-	url = git@github.com:Sterlingg/json-snatcher.git
-[submodule "json-reformat"]
-	path = json-reformat
-	url = git@github.com:gongo/json-reformat.git
+[submodule "auto-complete"]
+	path = auto-complete
+	url = git@github.com:auto-complete/auto-complete.git
+[submodule "popup-el"]
+	path = popup-el
+	url = git@github.com:auto-complete/popup-el.git

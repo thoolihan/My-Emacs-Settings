@@ -4,8 +4,8 @@
 
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
-(if (fboundp 'menu-bar-mode) 
-    (if (eq my-usemenu t) 
+(if (fboundp 'menu-bar-mode)
+    (if (eq my-usemenu t)
         (menu-bar-mode 1)
       (menu-bar-mode -1)))
 
@@ -26,8 +26,8 @@
 (setq truncate-partial-width-windows nil)
 (setq-default truncate-lines 'true)
 (defalias 'yes-or-no-p 'y-or-n-p)
-(display-time) 
-(setq-default transient-mark-mode nil)
+(display-time)
+;(setq-default transient-mark-mode nil)
 (delete-selection-mode t)
 (add-hook 'c-mode-common-hook
                (lambda () (subword-mode t)))
@@ -42,7 +42,5 @@
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
-;(if (eq my-startshell t) 
+;(if (eq my-startshell t)
 ;    (eshell))
-
-

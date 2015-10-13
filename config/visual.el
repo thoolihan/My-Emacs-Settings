@@ -28,6 +28,6 @@
   (face-list))
 
 (add-path "misc/")
-(if (eq my-use-col-highlight t)
-    (do (require 'col-highlight)
-        (column-highlight-mode t)))
+;; (if (eq my-use-col-highlight t)
+;;     (do (require 'col-highlight)
+;;         (column-highlight-mode t)))

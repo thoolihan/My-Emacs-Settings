@@ -38,9 +38,6 @@
 (setq cua-enable-cua-keys nil)
 (subword-mode t)
 
-(setq vc-handled-backends `(Git Hg SVN))
+(setq vc-handled-backends `(Git))
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
-
-;(if (eq my-startshell t)
-;    (eshell))

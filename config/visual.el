@@ -6,7 +6,8 @@
 
 (set-face-bold-p 'bold nil)
 ; disable bold
-(set-face-font 'default my-type-face)
+(unless (eq my-ostype 'linux)
+  (set-face-font 'default my-type-face))
 (mapc
   (lambda (face)
     (set-face-attribute face nil :weight 'light :underline nil))

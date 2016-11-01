@@ -7,19 +7,12 @@
 4. edit the ~/emacs/local-settings.el file with the options you prefer, example below:
 
 ```elisp
-;(setq my-ostype 'windows) ; windows mac linux
-(setq my-theme 'color-theme-twilight)
-;(setq my-theme 'color-theme-charcoal-black)
-;(setq my-theme 'color-theme-vim-colors)
-;(setq my-theme 'color-theme-feng-shui)
+(setq my-ostype 'linux) ; windows mac linux
 (setq my-type-face "Courier New-13")
 (setq my-use-col-highlight nil)
-(setq my-startshell t)
 (setq my-usemenu t)
-(setq use-lambda t)
 (setq user-emacs-directory (concat emacs-directory ".emacs.d"))
 (setq my-workspace-dir "~/workspace/")
-(setq my-dropbox-dir "~/Dropbox")
 ```
 
 ##Questions

@@ -22,6 +22,7 @@
                  "bindings"
                  "config-auto-complete"
                  "config-ess"
+                 "config-ediff"
                  "config-markdown"
                  "config-r"
                  "config-ssh"

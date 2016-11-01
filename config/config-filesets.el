@@ -1,2 +1,0 @@
-(require 'filesets)
-(filesets-init)

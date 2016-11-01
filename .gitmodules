@@ -20,9 +20,6 @@
 [submodule "popup-el"]
 	path = popup-el
 	url = git@github.com:auto-complete/popup-el.git
-[submodule "nxhtml"]
-	path = nxhtml
-	url = git@github.com:dparnell/nxhtml.git
 [submodule "ESS"]
 	path = ESS
 	url = git@github.com:emacs-ess/ESS.git

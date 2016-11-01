@@ -1,12 +1,8 @@
-;(load-library "wc")
-;(load-library "window-number")
-(load-library "dired-details")
-;(require 'dired-details)
-(dired-details-install)
-;(load-library "countchars.el")
-;(load-library "google")
-;(load-library "fullscreen")
+(add-path "misc/")
+
+;(load-library "dired-details")
+;(dired-details-install)
+;(load-library "shut-up")
+
 (load-library "browse-kill-ring")
-(load-library "edit-server")
-(load-library "shut-up")
 (load-library "editorconfig")

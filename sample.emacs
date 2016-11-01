@@ -1,11 +1,17 @@
+(package-initialize)
+
 (server-start)
 (require 'cl)
 (defvar emacs-directory "~/emacs/")
 (defvar emacs-root emacs-directory)
 
+(set-keyboard-coding-system nil)
+
 (defun add-path (p)
   (add-to-list 'load-path
                (concat emacs-directory p)))
+
+(setq exec-path (append exec-path '("/usr/local/bin")))
 
 (add-path "")
 (add-path "config")
@@ -13,22 +19,15 @@
 (let ((myconfig '(
                  "local-settings"
                  "config"
-                 "config-neotree"
-                 "config-abbrev"
-                 "config-options"
                  "bindings"
                  "config-auto-complete"
                  "config-ess"
-                 "config-info"
-;                 "config-markdown"
-;                 "config-php"
-;                 "config-nxhtml"
+                 "config-markdown"
+                 "config-r"
                  "config-ssh"
-                 "config-style"
-                 "config-yasnippet"
                  "config-yegge"
                  "config-tempfiles"
-		             "visual"
+                 "visual"
                  "misc"
                  )))
 

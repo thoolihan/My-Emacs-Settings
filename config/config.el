@@ -18,7 +18,7 @@
 
 ; also see config-style
 (setq-default indent-tabs-mode nil)
-(setq-default tab-width 2)
+(setq-default tab-width 4)
 
 (setq split-width-threshold nil)  ;fixes window behavior
 (global-set-key [f12] 'toggle-truncate-lines)
@@ -41,3 +41,28 @@
 (setq vc-handled-backends `(Git))
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+; emacs options
+(custom-set-variables
+  ;; custom-set-variables was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+ `(browse-url-browser-function (quote browse-url-default-windows-browser))
+  `(frame-title-format
+   (list
+    (getenv "USERNAME")
+    "@" (getenv "HOSTNAME")
+    "(" (getenv "OS") ")"
+    " %b %p %m"))
+ `(ediff-split-window-function 'split-window-horizontally)
+ `(fill-column 78)
+ `(inhibit-startup-screen t)
+ `(server-kill-new-buffers t))
+(setq-default display-buffer-reuse-frames t)
+(setq warning-suppress-types nil)
+(put 'upcase-region 'disabled nil)
+(put 'downcase-region 'disabled nil)
+
+(setq c-default-style "k&r")
+(define-key text-mode-map (kbd "<tab>") 'tab-to-tab-stop)

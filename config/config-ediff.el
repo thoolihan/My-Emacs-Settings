@@ -8,8 +8,8 @@
 
       (add-hook 'ediff-startup-hook
                 '(lambda ()
-                   (set-frame-size (selected-frame) 100 80)
-                   (set-face-attribute 'default (selected-frame) :height 130)
+                   (set-frame-size (selected-frame) 120 80)
+;                   (set-face-attribute 'default (selected-frame) :height 130)
                    (raise-frame (selected-frame))
                    ))
       ))

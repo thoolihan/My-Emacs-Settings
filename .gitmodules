@@ -26,3 +26,6 @@
 [submodule "markdown-mode"]
 	path = markdown-mode
 	url = git://jblevins.org/git/markdown-mode.git
+[submodule "haskell-mode"]
+	path = haskell-mode
+	url = git@github.com:haskell/haskell-mode.git

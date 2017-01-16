@@ -23,6 +23,7 @@
                  "config-auto-complete"
                  "config-ess"
                  "config-ediff"
+                 "config-haskell"
                  "config-markdown"
                  "config-r"
                  "config-ssh"
